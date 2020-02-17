@@ -1,10 +1,10 @@
 {
   "name": "zigbee2mqtt",
-  "version": "1.10.1",
+  "version": "1.10.2",
   "slug": "zigbee2mqtt",
   "description": "Zigbee to MQTT Bridge",
   "auto_uart": true,
-  "url": "https://github.com/danielwelch/hassio-zigbee2mqtt",
+  "url": "https://github.com/USA-RedDragon/hassio-zigbee2mqtt",
   "startup": "before",
   "arch": [
     "aarch64",
@@ -143,5 +143,5 @@
       "log": "bool?"
     }
   },
-  "image": "dwelch2101/zigbee2mqtt-{arch}"
+  "image": "jamcswain/zigbee2mqtt-{arch}"
 }
